@@ -18,6 +18,7 @@ const App = () => {
 
   if (!chartData) return <p>Loading...</p>;
 
+// Task 5: Render All Charts in the App
   return (
     <div>
       <h1>Interactive Dashboard</h1>
