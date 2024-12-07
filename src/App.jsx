@@ -7,7 +7,9 @@ import BarChart from "../components.jsx/BarChart.jsx";
 const App = () => {
   const [chartData, setChartData] = useState(null);
 
+  //Task 4: Fetch Data from Charts
   useEffect(() => {
+    //Fetch Data from financial_data.json
     fetch("../components.jsx/financial_data.json")
       .then((response) => response.json())
       .then((data) => setChartData(data))
