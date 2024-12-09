@@ -1,3 +1,4 @@
+//BAR CHART
 import React from "react";
 import ChartComponent from "./ChartComponents.jsx";
 
@@ -8,7 +9,8 @@ const BarChart = ({ data }) => {
       {
         label: "Sales",
         data: data.sales,
-        backgroundColor: "rgba(75, 192, 192, 0.6)",
+        backgroundColor: "rgba(153, 102, 255, 0.6)", // Chart data color
+        borderColor: "rgba(153, 102, 255)", //Chart data border color
       },
     ],
   };
